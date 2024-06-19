@@ -3,7 +3,7 @@ import { Container, Box, TextField, Button, MenuItem, Typography } from '@mui/ma
 import { ethers } from 'ethers';
 import VestingContractABI from './VestingContractABI.json';
 
-const contractAddress = "0x0bbb10ce367b679e476c6a5cfdabafbe897d2c26";
+const contractAddress = "0x3b7150655733abf7cbdd3500a0a840a9402bcf7f";
 
 const App = () => {
   const [provider, setProvider] = useState(null);
